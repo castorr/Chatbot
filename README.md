@@ -21,9 +21,8 @@ Most likely you don't have microsoft `visual c++ redistributables 2013 installed
 
 > Running as admin  
 
-It's always a good option to run the bot as admin to make sure it got all permissions needed. In order to do that you right click your Chatbot Shortcut -> `run as administrator`
+- It's always a good option to run the bot as admin to make sure it got all permissions needed. In order to do that you right click your Chatbot Shortcut -> `run as administrator`
 
 > If all else failed it might be MSI afterburner  
 
-First check if the bot does launch with MSI turned off (If it does not it is a different problem and this solution is not for you):
-With the bot closed and afterburner open, go into afterburner settings>User Interface and make sure Single tray icon mode is OFF. Then go to your tray, right click RivaTunerStatisticsServer, and click show.  Click Add, then find the Streamlabs Chatbot.exe.  Making sure the Streamlabs Chatbot profile is selected, turn Application Detection Level to None.  Open the chatbot and it should work fine now.
+- First check if the bot does launch with MSI turned off (If it does not it is a different problem and this solution is not for you) With the bot closed and afterburner open, go into afterburner `settings` > `User Interface` and make sure `Single tray icon mode` is `OFF`. Then go to your tray, right click `RivaTunerStatisticsServer`, and click `show`.  Click `Add`, then find the Streamlabs `Chatbot.exe`.  Making sure the Streamlabs Chatbot profile is selected, turn Application Detection Level to None.  Open the chatbot and it should work fine now.
