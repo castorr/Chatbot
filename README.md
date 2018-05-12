@@ -2,7 +2,7 @@
 [Dowload Chatbot](https://www.streamlabs.com/chatbot)  
 [Chatbot Discord](https://discordapp.com/invite/J4QMG5m)  
 [Changelog](https://streamlabs.com/chatbot-changelog)  
-[Suggest new Features](https://ideas.streamlabs.com)
+[Suggest new Features](https://ideas.streamlabs.com)  
 [Streamlabs Website](https://www.streamlabs.com)  
 
 ## Messages show in console/chatbot but not stream chat   
@@ -12,10 +12,10 @@ You most likely connected the bot to the wrong channel.
 3. Make sure Streamer Channel is the same as your actual stream name  
 
 ## Songrequest by artist/name
-To enable this feature go into the `Songrequest` tab in the bot then press the `gear icon` in the top right corner and change `mode` from `$id` to either of the two other options
+- To enable this feature go into the `Songrequest` tab in the bot then press the `gear icon` in the top right corner and change `mode` from `$id` to either of the two other options
 
 ## Songrequests on Spotify is playing random songs after the first one
-You can disable this in Spotify under `edit` -> `preferences` -> `Advanced settings` -> `Autoplay` -> `Autoplay similar songs when your music ends` 
+- You can disable this in Spotify under `edit` -> `preferences` -> `Advanced settings` -> `Autoplay` -> `Autoplay similar songs when your music ends` 
 
 ## Bot crashes / doesn't launch
 Most likely you don't have microsoft `visual c++ redistributables 2013` installed, note that both `x64` and `x86` needs to be installed. If you have both installed you can still visit [this link](https://www.microsoft.com/en-us/download/details.aspx?id=40784) to download and repair them both. If you need a step to step tutorial for this you can find that [here](https://support.streamlabs.com/hc/en-us/articles/115004407613-Repair-C-Redistributables-2013-x86-and-x64).  
