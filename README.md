@@ -4,11 +4,13 @@
 [Changelog](https://streamlabs.com/chatbot-changelog)  
 [Suggest new Features](https://ideas.streamlabs.com)  
 [Streamlabs Website](https://www.streamlabs.com)  
-
+  
+Documentation:  
+[Twitch](https://cdn.streamlabs.com/chatbot/Documentation_Twitch.pdf) | [YouTube](https://cdn.streamlabs.com/chatbot/Documentation_Youtube.pdf) | [Mixer](https://cdn.streamlabs.com/chatbot/Documentation_Mixer.pdf)  
 ## Messages show in console/chatbot but not stream chat   
 You most likely connected the bot to the wrong channel.  
-1. Go to connections (the human silhuette in the bottom left corner)  
-2. Go into bot connection  
+1. Go to connections (the human silhuette in the bottom left corner of the bot)  
+2. Go into bot connection (mixer or twitch bot)  
 3. Make sure Streamer Channel is the same as your actual stream name  
 
 ## Songrequest by artist/name
@@ -27,3 +29,6 @@ Most likely you don't have microsoft `visual c++ redistributables 2013` installe
 > If all else failed it might be MSI afterburner  
 
 - First check if the bot does launch with MSI turned off (If it does not it is a different problem and this solution is not for you) With the bot closed and afterburner open, go into afterburner `settings` > `User Interface` and make sure `Single tray icon mode` is `OFF`. Then go to your tray, right click `RivaTunerStatisticsServer`, and click `show`.  Click `Add`, then find the Streamlabs `Chatbot.exe`.  Making sure the Streamlabs Chatbot profile is selected, turn Application Detection Level to None.  Open the chatbot and it should work fine now.
+
+## Minigames aren't working
+Minigames require you to enable currency before they can be used, this still applies even if the cost is 0.
