@@ -32,3 +32,24 @@ Most likely you don't have microsoft `visual c++ redistributables 2013` installe
 
 ## Minigames aren't working
 Minigames require you to enable currency before they can be used, this still applies even if the cost is 0.
+> Heist  
+
+- Command needs to be followed by a value (!heist 10)
+- Heist will show a message saying that it's open and people can join
+- People joining won't get a message unless enabled in heist message settings
+- Start delay needs to be at least 1 to give users the time to join in
+- If not enough people (lower than min entries) enters it get cancelled
+
+> Duel
+
+- Command needs to be followed by a target (!challenge must13)
+- Users competing in a duel need to have enough currency (same or above the cost)
+- A message will be triggered and the target must answer with the original user (!challenge castorr91)
+- Expiry time needs to be at least 1 or the target got 0 minutes to accept the challenge
+
+> Free for All  
+
+- Only the first one starting the game will get a response
+- Users competing in the Free for All need to have enough currency (same or above the cost)
+- Start delay needs to be at least 1 to give users the time to join in
+- If not enough people (lower than min entries) enters it get cancelled
